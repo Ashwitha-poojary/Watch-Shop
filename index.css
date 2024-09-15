@@ -1,0 +1,102 @@
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 20px; */
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header img {
+  margin: 5px;
+}
+.navbar_container ul {
+  display: flex;
+  /* justify-content: space-around;
+  justify-items: right; */
+  list-style-type: none;
+  background-color: black;
+  position: fixed;
+  top: 7%;
+  /* margin: 20px; */
+}
+.navbar_container ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.navbar_container ul li {
+  margin-right: 40px;
+}
+.navbar_container ul li a:hover {
+  color: bisque;
+  background-color: black;
+  /* padding: 5px; */
+}
+main {
+  background-color: aqua;
+  margin: 20px;
+  border-radius: 10px;
+  border: 3px solid rgb(19, 20, 18);
+  margin-top: 100px;
+}
+.Home {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  row-gap: 15px;
+  justify-content: center;
+  padding: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.submit_button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: aquamarine;
+  /* margin: 20px; */
+}
+footer h2 {
+  color: rgb(92, 14, 84);
+  padding: 20px;
+  justify-items: center;
+}
+footer p {
+  padding: 20px;
+  justify-items: center;
+}
+footer section {
+  border-right: 1px solid rgb(19, 20, 18);
+}
+
+#watches-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.watch-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.watch {
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
